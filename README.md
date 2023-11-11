@@ -36,6 +36,8 @@ This project is an Online Examination Portal built using React.js for the fronte
 
 ## (The JSON Server will be accessible at http://localhost:3333)
 
+### (Note: you can use any email and password for admin login)
+
 
 # Features
 
