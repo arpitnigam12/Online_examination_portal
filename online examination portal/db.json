@@ -1,0 +1,201 @@
+{
+  "admin": [
+    {
+      "admin_name": "admin",
+      "admin_password": "1234"
+    }
+  ],
+  "subject": [
+    {
+      "subject_name": "Maths",
+      "id": 1
+    },
+    {
+      "subject_name": "Hindi",
+      "id": 3
+    }
+  ],
+  "Exam": [
+    {
+      "id": 1,
+      "exam_name": "Maths",
+      "exam_desc": "This is Math Exam",
+      "exam_date": "17-9-2021 17:49:39",
+      "exam_marks": "5",
+      "exam_totalQuestion": "5",
+      "exam_passMarks": "3",
+      "exam_level": "Easy"
+    },
+    {
+      "exam_name": "Hindi",
+      "exam_desc": "This is Hindi test",
+      "exam_level": "easy",
+      "exam_passMarks": "5",
+      "exam_totalQuestion": "5",
+      "exam_marks": "10",
+      "exam_date": "11-11-2023 14:8:58",
+      "id": 2
+    }
+  ],
+  "Question": [
+    {
+      "id": 1,
+      "question_name": "10-5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "2",
+      "option_four": "5",
+      "question_answer": "5",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "id": 2,
+      "question_name": "10+5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "4",
+      "option_four": "15",
+      "question_answer": "15",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "question_name": "10*5",
+      "option_one": "10",
+      "option_two": "5",
+      "option_three": "50",
+      "option_four": "2",
+      "question_answer": "50",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 3
+    },
+    {
+      "question_name": "110-10 ?",
+      "option_one": "110",
+      "option_two": "100",
+      "option_three": "10",
+      "option_four": "1",
+      "question_answer": "100",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 4
+    },
+    {
+      "question_name": "10/2 = ?",
+      "option_one": "1",
+      "option_two": "5",
+      "option_three": "10",
+      "option_four": "7",
+      "question_answer": "5",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 5
+    },
+    {
+      "question_name": "निम्नलिखित शब्दों में से उचित स्थान पर अनुस्वार का प्रयोग कीजिए ",
+      "option_one": "जंगल",
+      "option_two": "जगंल",
+      "option_three": "जगल",
+      "option_four": "जॅंगल",
+      "question_answer": "जंगल",
+      "exam_id": "2",
+      "subject_name": "",
+      "id": 6
+    },
+    {
+      "question_name": " निम्नलिखित शब्दों में से अनुस्वार के उचित प्रयोग वाले शब्द छाँट कर लिखिए ",
+      "option_one": "गङ्गा",
+      "option_two": "दीनबन्धु",
+      "option_three": "अन्दर ",
+      "option_four": "लंका",
+      "question_answer": "गङ्गा",
+      "exam_id": "2",
+      "subject_name": "",
+      "id": 7
+    },
+    {
+      "question_name": "‘पञ्जाब’ में उचित स्थान पर अनुस्वार लगाकर मानक रूप लिखिए ",
+      "option_one": "पन्जाब ",
+      "option_two": "पंजाब ",
+      "option_three": "पँजाब",
+      "option_four": "पजांब",
+      "question_answer": "पंजाब ",
+      "exam_id": "2",
+      "subject_name": "",
+      "id": 8
+    }
+  ],
+  "Result": [
+    {
+      "result_status": "Fail",
+      "result_score": 1,
+      "user_email": "arpitnigam",
+      "exam_date": "11-11-2023 14:0:43",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 7
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 1,
+      "user_email": "arpitnigam",
+      "exam_date": "11-11-2023 14:37:22",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 8
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "arpitnigam",
+      "exam_date": "11-11-2023 14:41:1",
+      "exam_name": "Hindi",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 9
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 1,
+      "user_email": "nigam",
+      "exam_date": "11-11-2023 17:15:34",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 10
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "nigam",
+      "exam_date": "11-11-2023 17:16:37",
+      "exam_name": "Hindi",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 11
+    }
+  ],
+  "user": [
+    {
+      "user_name": "Arpit",
+      "user_email": "arpitnigam",
+      "user_password": "123",
+      "id": 5
+    },
+    {
+      "user_name": "Arpit",
+      "user_email": "nigam",
+      "user_password": "12",
+      "id": 6
+    }
+  ]
+}

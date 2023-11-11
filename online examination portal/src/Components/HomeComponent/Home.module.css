@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.9);
+    float: left;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#headerHeadingBox {
+    float: left;
+    height: 50px;
+    width: 400px;
+    color: rgba(255, 255, 255, 0.95);
+    letter-spacing: 1.6;
+    font-size: x-large;
+    margin-left: 40px;
+    text-shadow: 0 0 10px rgba(156, 156, 156, 0.8); /* Adjust the shadow color and blur as needed */
+
+}
+
+#headerHeadingBox h3 {
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#div1 {
+    float: left;
+    height: 150px;
+    width: 1320px;
+    position: relative;
+    top: 55;
+    margin-top: 80px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+
+#div1 span {
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: -50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Adjust the shadow color and blur as needed */
+
+}
+
+#div2 {
+    float: left;
+    height: 300px;
+    width: 1000px;
+    position: relative;
+    top: 55;
+    margin-top: 30px;
+    margin-left: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3 {
+    float: left;
+    height: 300px;
+    width: 455px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.div3 img {
+    height: 250px;
+    width: 300px;
+    margin-top: -15px;
+    margin-left: -130px;
+    border: none;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+
+}
+
+.div3 img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    
+}
+
+.div3 span {
+    display: block;
+    font-size: x-large;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-right: 110px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Adjust the shadow color and blur as needed */
+}
+
+
+.div3 a {
+    color: black;
+    text-decoration: none;
+}
+
