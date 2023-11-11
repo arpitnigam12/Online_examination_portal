@@ -42,20 +42,26 @@ This project is an Online Examination Portal built using React.js for the fronte
 # Features
 
 #  =>Admin Panel
-  1.Login/Signup: Admins can securely log in or create a new account.
+  1.Login/Signup: Admins can securely log in or create a new account
+  
   2.Test Management: Admins can create, edit, and manage tests.
+  
   3.Result Viewing: Admins can view the results of students who have taken the tests.
 
 # =>Student Panel
   1.Login/Signup: Students can securely log in or create a new account.
+  
   2.Test Access: Students can access available tests and choose which ones to attend.
+  
   3.Result Viewing: Students can view their test results.  
+  
   4.Subject Selection: Students can choose subjects based on their preferences.
 
 
 # Technologies Used
    React.js: Frontend framework for building user interfaces.
-   JSON Server: Backend server for handling API requests and providing mock data.\
+   
+   JSON Server: Backend server for handling API requests and providing mock data.
    
 # License
 This project is created by Arpit Nigam 
